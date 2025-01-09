@@ -1,0 +1,83 @@
+/* Estilo general de la ventana */
+QMainWindow {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+
+/* Estilo de los QLabel */
+QLabel {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+/* Estilo de las entradas QLineEdit */
+QLineEdit {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Botón general por defecto */
+QPushButton {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+/* Botón de inicio en verde */
+QPushButton#start_Server {
+    background-color: #27ae60; /* Verde */
+}
+
+QPushButton#start_Server:hover {
+    background-color: #1e8449; /* Verde oscuro */
+}
+
+QPushButton#start_Server:pressed {
+    background-color: #16a085; /* Verde más vibrante */
+}
+
+/* Botón de salir en rojo */
+QPushButton#back_windows {
+    background-color: #e74c3c; /* Rojo */
+}
+
+QPushButton#back_windows:hover {
+    background-color: #c0392b; /* Rojo oscuro */
+}
+
+QPushButton#back_windows:pressed {
+    background-color: #d35400; /* Rojo más vibrante */
+}
+
+/* Estilo de QMessageBox */
+QMessageBox {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10pt;
+}
+
+/* Estilo de los botones dentro de QMessageBox */
+QMessageBox QPushButton {
+    background-color: #3498db; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+QMessageBox QPushButton:hover {
+    background-color: #2980b9; /* Azul oscuro */
+}
+
+QMessageBox QPushButton:pressed {
+    background-color: #1abc9c; /* Verde vibrante */
+}

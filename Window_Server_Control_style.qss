@@ -1,0 +1,107 @@
+/* Estilo general de la ventana */
+QMainWindow {
+    background-color: #f7f9fc;
+    color: #2c3e50;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10pt;
+}
+
+/* Estilo de QTextEdit (para el log) */
+QTextEdit {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Courier New", monospace;
+    color: #34495e;
+}
+
+/* Botones generales */
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #1abc9c;
+}
+
+/* Botón "Salir" */
+QPushButton#btn_close {
+    background-color: #e74c3c; /* Rojo */
+}
+
+QPushButton#btn_close:hover {
+    background-color: #c0392b; /* Rojo oscuro */
+}
+
+QPushButton#btn_close:pressed {
+    background-color: #d35400; /* Rojo más vibrante */
+}
+
+/* Botón "Iniciar Servidor" */
+QPushButton#btn_start {
+    background-color: #27ae60; /* Verde */
+}
+
+QPushButton#btn_start:hover {
+    background-color: #1e8449; /* Verde oscuro */
+}
+
+QPushButton#btn_start:pressed {
+    background-color: #16a085; /* Verde vibrante */
+}
+
+/* Botón "Detener Servidor" */
+QPushButton#btn_stop {
+    background-color: #f39c12; /* Naranja */
+}
+
+QPushButton#btn_stop:hover {
+    background-color: #e67e22; /* Naranja oscuro */
+}
+
+QPushButton#btn_stop:pressed {
+    background-color: #d35400; /* Naranja más vibrante */
+}
+
+/* QVBoxLayout (se aplica a los contenedores de widgets) */
+QWidget {
+    background-color: #f7f9fc;
+}
+
+/* Estilo de QMessageBox */
+QMessageBox {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10pt;
+}
+
+/* Estilo de los botones dentro de QMessageBox */
+QMessageBox QPushButton {
+    background-color: #3498db; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+QMessageBox QPushButton:hover {
+    background-color: #2980b9; /* Azul oscuro */
+}
+
+QMessageBox QPushButton:pressed {
+    background-color: #1abc9c; /* Verde vibrante */
+}

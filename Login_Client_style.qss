@@ -1,0 +1,52 @@
+/* Estilo para la ventana */
+QMainWindow {
+    background-color: #f4f6f9; /* Fondo claro */
+    border: 2px solid #3498db; /* Borde azul */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+/* Estilo para los QLabel */
+QLabel {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0d0a09;
+}
+
+/* Estilo para los QLineEdit */
+QLineEdit {
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #34495e;
+}
+
+QLineEdit:focus {
+    border: 2px solid #66afe9;  /* Cambia el borde a azul claro cuando el campo tiene el foco */
+}
+
+/* Estilo para los botones */
+#login_button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+#login_button:hover {
+    background-color: #2980b9;
+}
+
+#back_button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+#back_button:hover {
+    background-color: #c0392b;
+}

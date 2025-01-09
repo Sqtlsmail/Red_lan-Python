@@ -1,0 +1,75 @@
+/* Ventana principal */
+QMainWindow {
+    background-color: #e3f2fd; /* Azul suave */
+    border: 2px solid #90caf9; /* Azul claro */
+    border-radius: 10px;
+}
+
+/* Texto de la ventana principal */
+QTextEdit {
+    background-color: #bbdefb; /* Azul más suave */
+    border: 1px solid #90caf9; /* Azul claro */
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    color: #0d47a1; /* Azul oscuro para el texto */
+}
+
+/* Etiquetas (QLabel) */
+QLabel {
+    font-size: 10px; /* Tamaño más legible */
+    font-weight: bold;
+    color: #000000; /* Letras en negro */
+}
+
+/* Cuadro de texto de entrada */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #90caf9; /* Azul claro */
+    border-radius: 5px;
+    padding: 8px; /* Reducido */
+    font-size: 14px;
+    color: #0d47a1; /* Azul oscuro para el texto */
+}
+
+QLineEdit:focus {
+    border: 2px solid #64b5f6; /* Azul más intenso cuando tiene el foco */
+}
+
+/* Botones en general */
+QPushButton {
+    background-color: #64b5f6; /* Azul claro */
+    color: white;
+    font-size: 14px; /* Tamaño reducido */
+    border-radius: 4px; /* Más pequeño */
+    padding: 6px 12px; /* Tamaño compacto */
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #42a5f5; /* Azul más oscuro al pasar el ratón */
+}
+
+QPushButton:pressed {
+    background-color: #1e88e5; /* Azul intenso al presionar */
+}
+
+/* Botón de desconectar */
+QPushButton#disconnect_button {
+    background-color: #ef5350; /* Rojo suave */
+    font-size: 14px; /* Tamaño más pequeño */
+    padding: 6px 12px; /* Más compacto */
+}
+
+QPushButton#disconnect_button:hover {
+    background-color: #e53935; /* Rojo más oscuro al pasar el ratón */
+}
+
+QPushButton#disconnect_button:pressed {
+    background-color: #c62828; /* Rojo intenso al presionar */
+}
+
+/* Estilo de los contenedores */
+QWidget {
+    padding: 10px; /* Espaciado más pequeño */
+}
