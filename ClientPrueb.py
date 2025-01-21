@@ -20,7 +20,7 @@ class Client(QObject):
         self.contraseña = contraseña
         self.HEADER = 64
         self.PORT = PUERTO
-        self.SERVER = SERVER        #"26.98.98.144"
+        self.SERVER = SERVER        
         self.FORMAT = "utf-8"
         self.DISCONNECT_MESSAGE = "!DISCONNECT"
         self.ADDR = (self.SERVER, self.PORT)
